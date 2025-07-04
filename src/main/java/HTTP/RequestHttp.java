@@ -6,11 +6,12 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class RequestHttp {
-    private String method;
-    private String path;
-    private String protocol;
-    private Map<String, String> headers = new HashMap<>();
-    private String body;
+    private final String method;
+    private final String path;
+    private final String protocol;
+    private final Map<String, String> headers;
+    private final String body;
+    private Map<String, String> queryParams = new HashMap<>();
 
     public RequestHttp(String method, String path, String protocol, Map<String, String> headers, String body) {
         this.method = method;
@@ -22,15 +23,51 @@ public class RequestHttp {
 
     public static RequestHttp parseRequest(BufferedReader in) throws IOException {
         String requestLine = in.readLine();
+
         if (requestLine == null || requestLine.isEmpty()) {
-            throw new IOException("Requisição vazia.");
+            throw new IOException("Requisição vazia");
         }
 
         String[] requestParts = requestLine.split(" ");
-        String method = requestParts.length > 0 ? requestParts[0] : "";
-        String path = requestParts.length > 1 ? requestParts[1] : "";
-        String protocol = requestParts.length > 2 ? requestParts[2] : "HTTP/1.1";
+        /***
+         * POST /api/usuarios HTTP/1.1
+         *  Post :requestParts[0];
+         *  Path => /api/usuarios::requestParts[1];
+         *  Protocol HTTP/1.1 : requestParts[2]
+         *
+         * Host: exemplo.com
+         * Content-Type: application/json
+         * Content-Length: 48
+         *
+         * {
+         *   "nome": "Jairo",
+         *   "email": "jairo@email.com"
+         * }
+         */
+        String method = requestParts[0];
+        String rawPath = requestParts.length > 1 ? requestParts[1] : "";
+        String protocol = requestParts.length > 2 ? requestParts[2] : "";
+        String cleanPath = rawPath;
 
+        Map<String, String> queryParams = new HashMap<>();
+        //Path => /api/usuarios::requestParts[1]; Ele vai conferir o index do '?';
+        int queryIndex = rawPath.indexOf('?');
+        // Se ele tiver na ultima posição
+        if (queryIndex != -1) {
+            // o clean Path pega o valor da substring
+            cleanPath = rawPath.substring(0, queryIndex);
+            String queryString = rawPath.substring(queryIndex + 1);
+
+            for (String param : queryString.split("&")) {
+
+                String[] pair = param.split("=", 2);
+                if (pair.length == 2) {
+                    queryParams.put(pair[0], pair[1]);
+                } else if (pair.length == 1) {
+                    queryParams.put(pair[0], "");
+                }
+            }
+        }
         Map<String, String> headers = new HashMap<>();
         String line;
         while ((line = in.readLine()) != null && !line.isEmpty()) {
@@ -41,21 +78,25 @@ public class RequestHttp {
                 headers.put(key, value);
             }
         }
+        StringBuilder body = new StringBuilder();
+        if ("POST".equalsIgnoreCase(method) || "PUT".equalsIgnoreCase(method)) {
+            int contentLength = 0;
+            if (headers.containsKey("Content-Length")) {
+                try {
+                    contentLength = Integer.parseInt(headers.get("Content-Length"));
+                } catch (NumberFormatException ignored) {}
+            }
 
-        String body = null;
-        String contentLengthStr = headers.get("Content-Length");
-        if (contentLengthStr != null) {
-            int contentLength = Integer.parseInt(contentLengthStr);
-            char[] bodyChars = new char[contentLength];
-            int read = in.read(bodyChars, 0, contentLength);
-            body = new String(bodyChars, 0, read);
+            for (int i = 0; i < contentLength; i++) {
+                int ch = in.read();
+                if (ch != -1) {
+                    body.append((char) ch);
+                }
+            }
         }
-
-        return new RequestHttp(method, path, protocol, headers, body);
-    }
-
-    public String getHeader(String name) {
-        return headers.get(name);
+        RequestHttp request = new RequestHttp(method, cleanPath, protocol, headers, body.toString());
+        request.queryParams = queryParams;
+        return request;
     }
 
     public String getMethod() {
@@ -70,19 +111,19 @@ public class RequestHttp {
         return protocol;
     }
 
-    public String getBody() {
-        return body;
-    }
-
     public Map<String, String> getHeaders() {
         return headers;
     }
 
-    public String getBearerToken() {
-        String auth = getHeader("Authorization");
-        if (auth != null && auth.startsWith("Bearer ")) {
-            return auth.substring(7);
-        }
-        return null;
+    public String getHeader(String key) {
+        return headers.getOrDefault(key, "");
+    }
+
+    public String getBody() {
+        return body;
+    }
+
+    public Map<String, String> getQueryParams() {
+        return queryParams;
     }
 }

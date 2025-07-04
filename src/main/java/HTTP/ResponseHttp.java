@@ -30,16 +30,38 @@ public class ResponseHttp {
     }
 
     public String build() {
-        StringBuilder sb = new StringBuilder();
-        sb.append("HTTP/1.1 ").append(status.getStatusCode()).append(" ").append(status.getStatusDescription()).append("\r\n");
-        headers.forEach((k, v) -> sb.append(k).append(": ").append(v).append("\r\n"));
-        if (body != null) {
-            sb.append("Content-Length: ").append(body.getBytes(StandardCharsets.UTF_8).length).append("\r\n");
+        if (status == null) {
+            status = HttpStatus.INTERNAL_SERVER_ERROR;
+            if (body == null) {
+                body = "Erro interno: status HTTP não definido.";
+            }
         }
+
+        StringBuilder sb = new StringBuilder();
+        sb.append("HTTP/1.1 ").
+                append(status.getStatusCode()).
+                append(" ").
+                append(status.getStatusDescription()).append("\r\n");
+
+        headers.
+                forEach((k, v) ->
+                        sb.append(k).append(": ").
+                                append(v).
+                                append("\r\n"));
+
+        if (body != null) {
+            sb.append("Content-Length: ").
+                    append(body.getBytes(StandardCharsets.UTF_8).length).
+                    append("\r\n");
+        }
+
         sb.append("\r\n");
+
         if (body != null) {
             sb.append(body);
         }
+
         return sb.toString();
     }
+
 }

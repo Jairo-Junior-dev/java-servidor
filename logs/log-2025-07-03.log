@@ -1,0 +1,1442 @@
+[2025-07-03 17:25:23] [DEBUG] [ConfigLoader] Arquivo de configuração carregado com sucesso.
+[2025-07-03 17:25:23] [INFO] Servidor iniciado:
+[2025-07-03 17:25:32] [INFO] Conexão aceita de: 127.0.0.1
+[2025-07-03 17:25:37] [ERROR] Erro na conexão com cliente. - Requisição vazia.
+[2025-07-03 17:27:12] [DEBUG] [ConfigLoader] Arquivo de configuração carregado com sucesso.
+[2025-07-03 17:27:12] [INFO] Servidor iniciado:
+[2025-07-03 17:27:50] [INFO] Conexão aceita de: 127.0.0.1
+[2025-07-03 17:27:51] [DEBUG] Request: GET /
+[2025-07-03 17:27:51] [INFO] Autenticação desabilitada.
+[2025-07-03 17:31:16] [DEBUG] [ConfigLoader] Arquivo de configuração carregado com sucesso.
+[2025-07-03 17:31:16] [INFO] Servidor iniciado:
+[2025-07-03 17:31:24] [INFO] Conexão aceita de: 127.0.0.1
+[2025-07-03 17:31:24] [DEBUG] Request: GET /
+[2025-07-03 17:31:24] [INFO] Autenticação desabilitada.
+[2025-07-03 17:31:24] [INFO] Resposta enviada para 127.0.0.1: HTTP/1.1 500 Internal Server Error
+Content-Length: 40
+
+Erro interno: status HTTP não definido.
+[2025-07-03 17:31:24] [INFO] Conexão aceita de: 127.0.0.1
+[2025-07-03 17:31:24] [DEBUG] Request: GET /favicon.ico
+[2025-07-03 17:31:24] [INFO] Resposta enviada para 127.0.0.1: HTTP/1.1 500 Internal Server Error
+Content-Length: 40
+
+Erro interno: status HTTP não definido.
+[2025-07-03 17:34:02] [DEBUG] [ConfigLoader] Arquivo de configuração carregado com sucesso.
+[2025-07-03 17:34:02] [INFO] Servidor iniciado:
+[2025-07-03 17:34:10] [INFO] Conexão aceita de: 127.0.0.1
+[2025-07-03 17:34:10] [DEBUG] Request: GET /
+[2025-07-03 17:34:10] [INFO] Autenticação desabilitada.
+[2025-07-03 17:34:10] [INFO] Resposta enviada para 127.0.0.1: HTTP/1.1 200 OK
+Content-Type: text/plain; charset=UTF-8
+Content-Length: 18
+
+Rota encontrada: /
+[2025-07-03 17:34:14] [INFO] Conexão aceita de: 127.0.0.1
+[2025-07-03 17:34:19] [WARN] Requisição inválida de 127.0.0.1 - Requisição vazia.
+[2025-07-03 17:34:19] [INFO] Conexão aceita de: 127.0.0.1
+[2025-07-03 17:34:19] [DEBUG] Request: GET /index.html
+[2025-07-03 17:34:19] [INFO] Resposta enviada para 127.0.0.1: HTTP/1.1 200 OK
+Content-Type: text/plain; charset=UTF-8
+Content-Length: 28
+
+Rota encontrada: /index.html
+[2025-07-03 17:37:43] [DEBUG] [ConfigLoader] Arquivo de configuração carregado com sucesso.
+[2025-07-03 17:37:43] [INFO] Servidor iniciado:
+[2025-07-03 17:37:48] [INFO] Conexão aceita de: 127.0.0.1
+[2025-07-03 17:37:48] [DEBUG] Request: GET /index.html
+[2025-07-03 17:37:48] [INFO] Autenticação desabilitada.
+[2025-07-03 17:37:48] [INFO] Resposta enviada para 127.0.0.1: HTTP/1.1 200 OK
+Content-Type: text/html; charset=UTF-8
+Content-Length: 35
+
+<p>Rota encontrada: /index.html</p>
+[2025-07-03 17:37:48] [INFO] Conexão aceita de: 127.0.0.1
+[2025-07-03 17:37:48] [DEBUG] Request: GET /favicon.ico
+[2025-07-03 17:37:48] [INFO] Resposta enviada para 127.0.0.1: HTTP/1.1 404 Not Found
+Content-Type: text/html; charset=UTF-8
+Content-Length: 38
+
+<h1>404 - Página não encontrada</h1>
+[2025-07-03 17:37:51] [INFO] Conexão aceita de: 127.0.0.1
+[2025-07-03 17:37:51] [DEBUG] Request: GET /
+[2025-07-03 17:37:52] [INFO] Resposta enviada para 127.0.0.1: HTTP/1.1 200 OK
+Content-Type: text/html; charset=UTF-8
+Content-Length: 45
+
+<html>
+
+<body>
+
+
+<h1>OLa</h1>
+</body>
+</html>
+[2025-07-03 17:40:11] [DEBUG] [ConfigLoader] Arquivo de configuração carregado com sucesso.
+[2025-07-03 17:40:11] [INFO] Servidor iniciado:
+[2025-07-03 17:40:28] [INFO] Conexão aceita de: 127.0.0.1
+[2025-07-03 17:40:28] [DEBUG] Request: GET /
+[2025-07-03 17:40:28] [INFO] Autenticação desabilitada.
+[2025-07-03 17:40:28] [INFO] Resposta enviada para 127.0.0.1: HTTP/1.1 200 OK
+Content-Type: text/html; charset=UTF-8
+Content-Length: 1503
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Servidor HTTP Java</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<header>
+    <h1>🚀 Bem-vindo ao Servidor HTTP em Java</h1>
+    <p>Este servidor foi desenvolvido do zero, utilizando Java puro com suporte para rotas, middlewares e arquivos estáticos.</p>
+</header>
+
+<main>
+    <section>
+        <h2>🛠 Funcionalidades atuais</h2>
+        <ul>
+            <li>Leitura de requisições HTTP</li>
+            <li>Resposta com status e corpo</li>
+            <li>Middlewares customizáveis (ex: Auth, CORS)</li>
+            <li>Mapeamento de rotas</li>
+            <li>Serviço de arquivos estáticos (HTML, CSS)</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>📁 Estrutura do projeto</h2>
+        <pre>
+/src
+ ├── main/java
+ │   ├── Config/
+ │   ├── HTTP/
+ │   ├── middleware/
+ │   └── Main.java
+/resources
+ └── static/
+     ├── index.html
+     └── style.css
+      </pre>
+    </section>
+
+    <section>
+        <h2>📫 Contato</h2>
+        <p>Este projeto foi desenvolvido com fins educacionais. Para sugestões ou dúvidas:</p>
+        <ul>
+            <li>Email: seuemail@exemplo.com</li>
+            <li>GitHub: <a href="https://github.com/Jairo-Junior-dev">github.com/Jairo-Junior-dev</a></li>
+        </ul>
+    </section>
+</main>
+
+<footer>
+    <p>© 2025 - Servidor Java feito com 💻 e ☕</p>
+</footer>
+</body>
+</html>
+[2025-07-03 17:40:28] [INFO] Conexão aceita de: 127.0.0.1
+[2025-07-03 17:40:28] [DEBUG] Request: GET /style.css
+[2025-07-03 17:40:28] [INFO] Resposta enviada para 127.0.0.1: HTTP/1.1 404 Not Found
+Content-Type: text/html; charset=UTF-8
+Content-Length: 38
+
+<h1>404 - Página não encontrada</h1>
+[2025-07-03 17:40:57] [DEBUG] [ConfigLoader] Arquivo de configuração carregado com sucesso.
+[2025-07-03 17:40:57] [INFO] Servidor iniciado:
+[2025-07-03 17:41:02] [INFO] Conexão aceita de: 127.0.0.1
+[2025-07-03 17:41:02] [DEBUG] Request: GET /
+[2025-07-03 17:41:02] [INFO] Autenticação desabilitada.
+[2025-07-03 17:41:02] [INFO] Resposta enviada para 127.0.0.1: HTTP/1.1 200 OK
+Content-Type: text/html; charset=UTF-8
+Content-Length: 1502
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Servidor HTTP Java</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <h1>🚀 Bem-vindo ao Servidor HTTP em Java</h1>
+    <p>Este servidor foi desenvolvido do zero, utilizando Java puro com suporte para rotas, middlewares e arquivos estáticos.</p>
+</header>
+
+<main>
+    <section>
+        <h2>🛠 Funcionalidades atuais</h2>
+        <ul>
+            <li>Leitura de requisições HTTP</li>
+            <li>Resposta com status e corpo</li>
+            <li>Middlewares customizáveis (ex: Auth, CORS)</li>
+            <li>Mapeamento de rotas</li>
+            <li>Serviço de arquivos estáticos (HTML, CSS)</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>📁 Estrutura do projeto</h2>
+        <pre>
+/src
+ ├── main/java
+ │   ├── Config/
+ │   ├── HTTP/
+ │   ├── middleware/
+ │   └── Main.java
+/resources
+ └── static/
+     ├── index.html
+     └── style.css
+      </pre>
+    </section>
+
+    <section>
+        <h2>📫 Contato</h2>
+        <p>Este projeto foi desenvolvido com fins educacionais. Para sugestões ou dúvidas:</p>
+        <ul>
+            <li>Email: seuemail@exemplo.com</li>
+            <li>GitHub: <a href="https://github.com/Jairo-Junior-dev">github.com/Jairo-Junior-dev</a></li>
+        </ul>
+    </section>
+</main>
+
+<footer>
+    <p>© 2025 - Servidor Java feito com 💻 e ☕</p>
+</footer>
+</body>
+</html>
+[2025-07-03 17:41:02] [INFO] Conexão aceita de: 127.0.0.1
+[2025-07-03 17:41:02] [DEBUG] Request: GET /style.css
+[2025-07-03 17:41:02] [INFO] Resposta enviada para 127.0.0.1: HTTP/1.1 404 Not Found
+Content-Type: text/html; charset=UTF-8
+Content-Length: 38
+
+<h1>404 - Página não encontrada</h1>
+[2025-07-03 17:41:07] [INFO] Conexão aceita de: 127.0.0.1
+[2025-07-03 17:41:07] [DEBUG] Request: GET /
+[2025-07-03 17:41:07] [INFO] Resposta enviada para 127.0.0.1: HTTP/1.1 200 OK
+Content-Type: text/html; charset=UTF-8
+Content-Length: 1502
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Servidor HTTP Java</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <h1>🚀 Bem-vindo ao Servidor HTTP em Java</h1>
+    <p>Este servidor foi desenvolvido do zero, utilizando Java puro com suporte para rotas, middlewares e arquivos estáticos.</p>
+</header>
+
+<main>
+    <section>
+        <h2>🛠 Funcionalidades atuais</h2>
+        <ul>
+            <li>Leitura de requisições HTTP</li>
+            <li>Resposta com status e corpo</li>
+            <li>Middlewares customizáveis (ex: Auth, CORS)</li>
+            <li>Mapeamento de rotas</li>
+            <li>Serviço de arquivos estáticos (HTML, CSS)</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>📁 Estrutura do projeto</h2>
+        <pre>
+/src
+ ├── main/java
+ │   ├── Config/
+ │   ├── HTTP/
+ │   ├── middleware/
+ │   └── Main.java
+/resources
+ └── static/
+     ├── index.html
+     └── style.css
+      </pre>
+    </section>
+
+    <section>
+        <h2>📫 Contato</h2>
+        <p>Este projeto foi desenvolvido com fins educacionais. Para sugestões ou dúvidas:</p>
+        <ul>
+            <li>Email: seuemail@exemplo.com</li>
+            <li>GitHub: <a href="https://github.com/Jairo-Junior-dev">github.com/Jairo-Junior-dev</a></li>
+        </ul>
+    </section>
+</main>
+
+<footer>
+    <p>© 2025 - Servidor Java feito com 💻 e ☕</p>
+</footer>
+</body>
+</html>
+[2025-07-03 17:41:07] [INFO] Conexão aceita de: 127.0.0.1
+[2025-07-03 17:41:07] [DEBUG] Request: GET /style.css
+[2025-07-03 17:41:07] [INFO] Resposta enviada para 127.0.0.1: HTTP/1.1 404 Not Found
+Content-Type: text/html; charset=UTF-8
+Content-Length: 38
+
+<h1>404 - Página não encontrada</h1>
+[2025-07-03 17:41:10] [INFO] Conexão aceita de: 127.0.0.1
+[2025-07-03 17:41:11] [DEBUG] Request: GET /ola
+[2025-07-03 17:41:11] [INFO] Resposta enviada para 127.0.0.1: HTTP/1.1 404 Not Found
+Content-Type: text/html; charset=UTF-8
+Content-Length: 38
+
+<h1>404 - Página não encontrada</h1>
+[2025-07-03 17:41:15] [INFO] Conexão aceita de: 127.0.0.1
+[2025-07-03 17:41:15] [DEBUG] Request: GET /
+[2025-07-03 17:41:15] [INFO] Resposta enviada para 127.0.0.1: HTTP/1.1 200 OK
+Content-Type: text/html; charset=UTF-8
+Content-Length: 1502
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Servidor HTTP Java</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <h1>🚀 Bem-vindo ao Servidor HTTP em Java</h1>
+    <p>Este servidor foi desenvolvido do zero, utilizando Java puro com suporte para rotas, middlewares e arquivos estáticos.</p>
+</header>
+
+<main>
+    <section>
+        <h2>🛠 Funcionalidades atuais</h2>
+        <ul>
+            <li>Leitura de requisições HTTP</li>
+            <li>Resposta com status e corpo</li>
+            <li>Middlewares customizáveis (ex: Auth, CORS)</li>
+            <li>Mapeamento de rotas</li>
+            <li>Serviço de arquivos estáticos (HTML, CSS)</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>📁 Estrutura do projeto</h2>
+        <pre>
+/src
+ ├── main/java
+ │   ├── Config/
+ │   ├── HTTP/
+ │   ├── middleware/
+ │   └── Main.java
+/resources
+ └── static/
+     ├── index.html
+     └── style.css
+      </pre>
+    </section>
+
+    <section>
+        <h2>📫 Contato</h2>
+        <p>Este projeto foi desenvolvido com fins educacionais. Para sugestões ou dúvidas:</p>
+        <ul>
+            <li>Email: seuemail@exemplo.com</li>
+            <li>GitHub: <a href="https://github.com/Jairo-Junior-dev">github.com/Jairo-Junior-dev</a></li>
+        </ul>
+    </section>
+</main>
+
+<footer>
+    <p>© 2025 - Servidor Java feito com 💻 e ☕</p>
+</footer>
+</body>
+</html>
+[2025-07-03 17:41:15] [INFO] Conexão aceita de: 127.0.0.1
+[2025-07-03 17:41:15] [DEBUG] Request: GET /style.css
+[2025-07-03 17:41:15] [INFO] Resposta enviada para 127.0.0.1: HTTP/1.1 404 Not Found
+Content-Type: text/html; charset=UTF-8
+Content-Length: 38
+
+<h1>404 - Página não encontrada</h1>
+[2025-07-03 17:42:42] [DEBUG] [ConfigLoader] Arquivo de configuração carregado com sucesso.
+[2025-07-03 17:42:42] [INFO] Servidor iniciado:
+[2025-07-03 17:42:45] [INFO] Conexão aceita de: 127.0.0.1
+[2025-07-03 17:42:45] [DEBUG] Request: GET /
+[2025-07-03 17:42:45] [INFO] Autenticação desabilitada.
+[2025-07-03 17:42:45] [INFO] Resposta enviada para 127.0.0.1: HTTP/1.1 200 OK
+Content-Type: text/html; charset=UTF-8
+Content-Length: 1502
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Servidor HTTP Java</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <h1>🚀 Bem-vindo ao Servidor HTTP em Java</h1>
+    <p>Este servidor foi desenvolvido do zero, utilizando Java puro com suporte para rotas, middlewares e arquivos estáticos.</p>
+</header>
+
+<main>
+    <section>
+        <h2>🛠 Funcionalidades atuais</h2>
+        <ul>
+            <li>Leitura de requisições HTTP</li>
+            <li>Resposta com status e corpo</li>
+            <li>Middlewares customizáveis (ex: Auth, CORS)</li>
+            <li>Mapeamento de rotas</li>
+            <li>Serviço de arquivos estáticos (HTML, CSS)</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>📁 Estrutura do projeto</h2>
+        <pre>
+/src
+ ├── main/java
+ │   ├── Config/
+ │   ├── HTTP/
+ │   ├── middleware/
+ │   └── Main.java
+/resources
+ └── static/
+     ├── index.html
+     └── style.css
+      </pre>
+    </section>
+
+    <section>
+        <h2>📫 Contato</h2>
+        <p>Este projeto foi desenvolvido com fins educacionais. Para sugestões ou dúvidas:</p>
+        <ul>
+            <li>Email: seuemail@exemplo.com</li>
+            <li>GitHub: <a href="https://github.com/Jairo-Junior-dev">github.com/Jairo-Junior-dev</a></li>
+        </ul>
+    </section>
+</main>
+
+<footer>
+    <p>© 2025 - Servidor Java feito com 💻 e ☕</p>
+</footer>
+</body>
+</html>
+[2025-07-03 17:42:45] [INFO] Conexão aceita de: 127.0.0.1
+[2025-07-03 17:42:45] [DEBUG] Request: GET /style.css
+[2025-07-03 17:42:45] [INFO] Resposta enviada para 127.0.0.1: HTTP/1.1 404 Not Found
+Content-Type: text/html; charset=UTF-8
+Content-Length: 38
+
+<h1>404 - Página não encontrada</h1>
+[2025-07-03 17:43:05] [DEBUG] [ConfigLoader] Arquivo de configuração carregado com sucesso.
+[2025-07-03 17:43:05] [INFO] Servidor iniciado:
+[2025-07-03 17:43:10] [INFO] Conexão aceita de: 127.0.0.1
+[2025-07-03 17:43:10] [DEBUG] Request: GET /
+[2025-07-03 17:43:10] [INFO] Autenticação desabilitada.
+[2025-07-03 17:43:10] [INFO] Resposta enviada para 127.0.0.1: HTTP/1.1 200 OK
+Content-Type: text/html; charset=UTF-8
+Content-Length: 1504
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Servidor HTTP Java</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<header>
+    <h1>🚀 Bem-vindo ao Servidor HTTP em Java</h1>
+    <p>Este servidor foi desenvolvido do zero, utilizando Java puro com suporte para rotas, middlewares e arquivos estáticos.</p>
+</header>
+
+<main>
+    <section>
+        <h2>🛠 Funcionalidades atuais</h2>
+        <ul>
+            <li>Leitura de requisições HTTP</li>
+            <li>Resposta com status e corpo</li>
+            <li>Middlewares customizáveis (ex: Auth, CORS)</li>
+            <li>Mapeamento de rotas</li>
+            <li>Serviço de arquivos estáticos (HTML, CSS)</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>📁 Estrutura do projeto</h2>
+        <pre>
+/src
+ ├── main/java
+ │   ├── Config/
+ │   ├── HTTP/
+ │   ├── middleware/
+ │   └── Main.java
+/resources
+ └── static/
+     ├── index.html
+     └── style.css
+      </pre>
+    </section>
+
+    <section>
+        <h2>📫 Contato</h2>
+        <p>Este projeto foi desenvolvido com fins educacionais. Para sugestões ou dúvidas:</p>
+        <ul>
+            <li>Email: seuemail@exemplo.com</li>
+            <li>GitHub: <a href="https://github.com/Jairo-Junior-dev">github.com/Jairo-Junior-dev</a></li>
+        </ul>
+    </section>
+</main>
+
+<footer>
+    <p>© 2025 - Servidor Java feito com 💻 e ☕</p>
+</footer>
+</body>
+</html>
+[2025-07-03 17:43:11] [INFO] Conexão aceita de: 127.0.0.1
+[2025-07-03 17:43:11] [DEBUG] Request: GET /style.css
+[2025-07-03 17:43:11] [INFO] Resposta enviada para 127.0.0.1: HTTP/1.1 404 Not Found
+Content-Type: text/html; charset=UTF-8
+Content-Length: 38
+
+<h1>404 - Página não encontrada</h1>
+[2025-07-03 17:43:14] [INFO] Conexão aceita de: 127.0.0.1
+[2025-07-03 17:43:14] [DEBUG] Request: GET /
+[2025-07-03 17:43:14] [INFO] Resposta enviada para 127.0.0.1: HTTP/1.1 200 OK
+Content-Type: text/html; charset=UTF-8
+Content-Length: 1504
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Servidor HTTP Java</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<header>
+    <h1>🚀 Bem-vindo ao Servidor HTTP em Java</h1>
+    <p>Este servidor foi desenvolvido do zero, utilizando Java puro com suporte para rotas, middlewares e arquivos estáticos.</p>
+</header>
+
+<main>
+    <section>
+        <h2>🛠 Funcionalidades atuais</h2>
+        <ul>
+            <li>Leitura de requisições HTTP</li>
+            <li>Resposta com status e corpo</li>
+            <li>Middlewares customizáveis (ex: Auth, CORS)</li>
+            <li>Mapeamento de rotas</li>
+            <li>Serviço de arquivos estáticos (HTML, CSS)</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>📁 Estrutura do projeto</h2>
+        <pre>
+/src
+ ├── main/java
+ │   ├── Config/
+ │   ├── HTTP/
+ │   ├── middleware/
+ │   └── Main.java
+/resources
+ └── static/
+     ├── index.html
+     └── style.css
+      </pre>
+    </section>
+
+    <section>
+        <h2>📫 Contato</h2>
+        <p>Este projeto foi desenvolvido com fins educacionais. Para sugestões ou dúvidas:</p>
+        <ul>
+            <li>Email: seuemail@exemplo.com</li>
+            <li>GitHub: <a href="https://github.com/Jairo-Junior-dev">github.com/Jairo-Junior-dev</a></li>
+        </ul>
+    </section>
+</main>
+
+<footer>
+    <p>© 2025 - Servidor Java feito com 💻 e ☕</p>
+</footer>
+</body>
+</html>
+[2025-07-03 17:43:14] [INFO] Conexão aceita de: 127.0.0.1
+[2025-07-03 17:43:14] [DEBUG] Request: GET /style.css
+[2025-07-03 17:43:14] [INFO] Resposta enviada para 127.0.0.1: HTTP/1.1 404 Not Found
+Content-Type: text/html; charset=UTF-8
+Content-Length: 38
+
+<h1>404 - Página não encontrada</h1>
+[2025-07-03 17:43:29] [DEBUG] [ConfigLoader] Arquivo de configuração carregado com sucesso.
+[2025-07-03 17:43:29] [INFO] Servidor iniciado:
+[2025-07-03 17:43:32] [INFO] Conexão aceita de: 127.0.0.1
+[2025-07-03 17:43:32] [DEBUG] Request: GET /
+[2025-07-03 17:43:32] [INFO] Autenticação desabilitada.
+[2025-07-03 17:43:32] [INFO] Resposta enviada para 127.0.0.1: HTTP/1.1 200 OK
+Content-Type: text/html; charset=UTF-8
+Content-Length: 1505
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Servidor HTTP Java</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<header>
+    <h1>🚀 Bem-vindo ao Servidor HTTP em Java</h1>
+    <p>Este servidor foi desenvolvido do zero, utilizando Java puro com suporte para rotas, middlewares e arquivos estáticos.</p>
+</header>
+
+<main>
+    <section>
+        <h2>🛠 Funcionalidades atuais</h2>
+        <ul>
+            <li>Leitura de requisições HTTP</li>
+            <li>Resposta com status e corpo</li>
+            <li>Middlewares customizáveis (ex: Auth, CORS)</li>
+            <li>Mapeamento de rotas</li>
+            <li>Serviço de arquivos estáticos (HTML, CSS)</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>📁 Estrutura do projeto</h2>
+        <pre>
+/src
+ ├── main/java
+ │   ├── Config/
+ │   ├── HTTP/
+ │   ├── middleware/
+ │   └── Main.java
+/resources
+ └── static/
+     ├── index.html
+     └── style.css
+      </pre>
+    </section>
+
+    <section>
+        <h2>📫 Contato</h2>
+        <p>Este projeto foi desenvolvido com fins educacionais. Para sugestões ou dúvidas:</p>
+        <ul>
+            <li>Email: seuemail@exemplo.com</li>
+            <li>GitHub: <a href="https://github.com/Jairo-Junior-dev">github.com/Jairo-Junior-dev</a></li>
+        </ul>
+    </section>
+</main>
+
+<footer>
+    <p>© 2025 - Servidor Java feito com 💻 e ☕</p>
+</footer>
+</body>
+</html>
+[2025-07-03 17:43:32] [INFO] Conexão aceita de: 127.0.0.1
+[2025-07-03 17:43:32] [DEBUG] Request: GET /style.css
+[2025-07-03 17:43:32] [INFO] Resposta enviada para 127.0.0.1: HTTP/1.1 404 Not Found
+Content-Type: text/html; charset=UTF-8
+Content-Length: 38
+
+<h1>404 - Página não encontrada</h1>
+[2025-07-03 17:44:20] [DEBUG] [ConfigLoader] Arquivo de configuração carregado com sucesso.
+[2025-07-03 17:44:20] [INFO] Servidor iniciado:
+[2025-07-03 17:44:22] [INFO] Conexão aceita de: 127.0.0.1
+[2025-07-03 17:44:22] [DEBUG] Request: GET /
+[2025-07-03 17:44:22] [INFO] Autenticação desabilitada.
+[2025-07-03 17:44:22] [INFO] Resposta enviada para 127.0.0.1: HTTP/1.1 200 OK
+Content-Type: text/html; charset=UTF-8
+Content-Length: 1521
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Servidor HTTP Java</title>
+    <link rel="stylesheet" href="src/main/resources/style.css">
+</head>
+<body>
+<header>
+    <h1>🚀 Bem-vindo ao Servidor HTTP em Java</h1>
+    <p>Este servidor foi desenvolvido do zero, utilizando Java puro com suporte para rotas, middlewares e arquivos estáticos.</p>
+</header>
+
+<main>
+    <section>
+        <h2>🛠 Funcionalidades atuais</h2>
+        <ul>
+            <li>Leitura de requisições HTTP</li>
+            <li>Resposta com status e corpo</li>
+            <li>Middlewares customizáveis (ex: Auth, CORS)</li>
+            <li>Mapeamento de rotas</li>
+            <li>Serviço de arquivos estáticos (HTML, CSS)</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>📁 Estrutura do projeto</h2>
+        <pre>
+/src
+ ├── main/java
+ │   ├── Config/
+ │   ├── HTTP/
+ │   ├── middleware/
+ │   └── Main.java
+/resources
+ └── static/
+     ├── index.html
+     └── style.css
+      </pre>
+    </section>
+
+    <section>
+        <h2>📫 Contato</h2>
+        <p>Este projeto foi desenvolvido com fins educacionais. Para sugestões ou dúvidas:</p>
+        <ul>
+            <li>Email: seuemail@exemplo.com</li>
+            <li>GitHub: <a href="https://github.com/Jairo-Junior-dev">github.com/Jairo-Junior-dev</a></li>
+        </ul>
+    </section>
+</main>
+
+<footer>
+    <p>© 2025 - Servidor Java feito com 💻 e ☕</p>
+</footer>
+</body>
+</html>
+[2025-07-03 17:44:22] [INFO] Conexão aceita de: 127.0.0.1
+[2025-07-03 17:44:22] [DEBUG] Request: GET /src/main/resources/style.css
+[2025-07-03 17:44:22] [INFO] Resposta enviada para 127.0.0.1: HTTP/1.1 404 Not Found
+Content-Type: text/html; charset=UTF-8
+Content-Length: 38
+
+<h1>404 - Página não encontrada</h1>
+[2025-07-03 17:44:22] [INFO] Conexão aceita de: 127.0.0.1
+[2025-07-03 17:44:22] [DEBUG] Request: GET /favicon.ico
+[2025-07-03 17:44:22] [INFO] Resposta enviada para 127.0.0.1: HTTP/1.1 404 Not Found
+Content-Type: text/html; charset=UTF-8
+Content-Length: 38
+
+<h1>404 - Página não encontrada</h1>
+[2025-07-03 17:44:25] [INFO] Conexão aceita de: 127.0.0.1
+[2025-07-03 17:44:25] [DEBUG] Request: GET /
+[2025-07-03 17:44:25] [INFO] Resposta enviada para 127.0.0.1: HTTP/1.1 200 OK
+Content-Type: text/html; charset=UTF-8
+Content-Length: 1521
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Servidor HTTP Java</title>
+    <link rel="stylesheet" href="src/main/resources/style.css">
+</head>
+<body>
+<header>
+    <h1>🚀 Bem-vindo ao Servidor HTTP em Java</h1>
+    <p>Este servidor foi desenvolvido do zero, utilizando Java puro com suporte para rotas, middlewares e arquivos estáticos.</p>
+</header>
+
+<main>
+    <section>
+        <h2>🛠 Funcionalidades atuais</h2>
+        <ul>
+            <li>Leitura de requisições HTTP</li>
+            <li>Resposta com status e corpo</li>
+            <li>Middlewares customizáveis (ex: Auth, CORS)</li>
+            <li>Mapeamento de rotas</li>
+            <li>Serviço de arquivos estáticos (HTML, CSS)</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>📁 Estrutura do projeto</h2>
+        <pre>
+/src
+ ├── main/java
+ │   ├── Config/
+ │   ├── HTTP/
+ │   ├── middleware/
+ │   └── Main.java
+/resources
+ └── static/
+     ├── index.html
+     └── style.css
+      </pre>
+    </section>
+
+    <section>
+        <h2>📫 Contato</h2>
+        <p>Este projeto foi desenvolvido com fins educacionais. Para sugestões ou dúvidas:</p>
+        <ul>
+            <li>Email: seuemail@exemplo.com</li>
+            <li>GitHub: <a href="https://github.com/Jairo-Junior-dev">github.com/Jairo-Junior-dev</a></li>
+        </ul>
+    </section>
+</main>
+
+<footer>
+    <p>© 2025 - Servidor Java feito com 💻 e ☕</p>
+</footer>
+</body>
+</html>
+[2025-07-03 17:44:25] [INFO] Conexão aceita de: 127.0.0.1
+[2025-07-03 17:44:25] [DEBUG] Request: GET /src/main/resources/style.css
+[2025-07-03 17:44:25] [INFO] Resposta enviada para 127.0.0.1: HTTP/1.1 404 Not Found
+Content-Type: text/html; charset=UTF-8
+Content-Length: 38
+
+<h1>404 - Página não encontrada</h1>
+[2025-07-03 17:44:25] [INFO] Conexão aceita de: 127.0.0.1
+[2025-07-03 17:44:25] [WARN] Requisição inválida de 127.0.0.1 - Requisição vazia.
+[2025-07-03 17:45:19] [DEBUG] [ConfigLoader] Arquivo de configuração carregado com sucesso.
+[2025-07-03 17:45:19] [INFO] Servidor iniciado:
+[2025-07-03 17:45:27] [INFO] Conexão aceita de: 127.0.0.1
+[2025-07-03 17:45:27] [DEBUG] Request: GET /
+[2025-07-03 17:45:27] [INFO] Autenticação desabilitada.
+[2025-07-03 17:45:27] [INFO] Resposta enviada para 127.0.0.1: HTTP/1.1 200 OK
+Content-Type: text/html; charset=UTF-8
+Content-Length: 1502
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Servidor HTTP Java</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <h1>🚀 Bem-vindo ao Servidor HTTP em Java</h1>
+    <p>Este servidor foi desenvolvido do zero, utilizando Java puro com suporte para rotas, middlewares e arquivos estáticos.</p>
+</header>
+
+<main>
+    <section>
+        <h2>🛠 Funcionalidades atuais</h2>
+        <ul>
+            <li>Leitura de requisições HTTP</li>
+            <li>Resposta com status e corpo</li>
+            <li>Middlewares customizáveis (ex: Auth, CORS)</li>
+            <li>Mapeamento de rotas</li>
+            <li>Serviço de arquivos estáticos (HTML, CSS)</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>📁 Estrutura do projeto</h2>
+        <pre>
+/src
+ ├── main/java
+ │   ├── Config/
+ │   ├── HTTP/
+ │   ├── middleware/
+ │   └── Main.java
+/resources
+ └── static/
+     ├── index.html
+     └── style.css
+      </pre>
+    </section>
+
+    <section>
+        <h2>📫 Contato</h2>
+        <p>Este projeto foi desenvolvido com fins educacionais. Para sugestões ou dúvidas:</p>
+        <ul>
+            <li>Email: seuemail@exemplo.com</li>
+            <li>GitHub: <a href="https://github.com/Jairo-Junior-dev">github.com/Jairo-Junior-dev</a></li>
+        </ul>
+    </section>
+</main>
+
+<footer>
+    <p>© 2025 - Servidor Java feito com 💻 e ☕</p>
+</footer>
+</body>
+</html>
+[2025-07-03 17:45:27] [INFO] Conexão aceita de: 127.0.0.1
+[2025-07-03 17:45:27] [DEBUG] Request: GET /style.css
+[2025-07-03 17:45:27] [INFO] Resposta enviada para 127.0.0.1: HTTP/1.1 404 Not Found
+Content-Type: text/html; charset=UTF-8
+Content-Length: 38
+
+<h1>404 - Página não encontrada</h1>
+[2025-07-03 17:45:39] [DEBUG] [ConfigLoader] Arquivo de configuração carregado com sucesso.
+[2025-07-03 17:45:39] [INFO] Servidor iniciado:
+[2025-07-03 17:45:44] [INFO] Conexão aceita de: 127.0.0.1
+[2025-07-03 17:45:44] [DEBUG] Request: GET /
+[2025-07-03 17:45:44] [INFO] Autenticação desabilitada.
+[2025-07-03 17:45:44] [INFO] Resposta enviada para 127.0.0.1: HTTP/1.1 200 OK
+Content-Type: text/html; charset=UTF-8
+Content-Length: 1503
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Servidor HTTP Java</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<header>
+    <h1>🚀 Bem-vindo ao Servidor HTTP em Java</h1>
+    <p>Este servidor foi desenvolvido do zero, utilizando Java puro com suporte para rotas, middlewares e arquivos estáticos.</p>
+</header>
+
+<main>
+    <section>
+        <h2>🛠 Funcionalidades atuais</h2>
+        <ul>
+            <li>Leitura de requisições HTTP</li>
+            <li>Resposta com status e corpo</li>
+            <li>Middlewares customizáveis (ex: Auth, CORS)</li>
+            <li>Mapeamento de rotas</li>
+            <li>Serviço de arquivos estáticos (HTML, CSS)</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>📁 Estrutura do projeto</h2>
+        <pre>
+/src
+ ├── main/java
+ │   ├── Config/
+ │   ├── HTTP/
+ │   ├── middleware/
+ │   └── Main.java
+/resources
+ └── static/
+     ├── index.html
+     └── style.css
+      </pre>
+    </section>
+
+    <section>
+        <h2>📫 Contato</h2>
+        <p>Este projeto foi desenvolvido com fins educacionais. Para sugestões ou dúvidas:</p>
+        <ul>
+            <li>Email: seuemail@exemplo.com</li>
+            <li>GitHub: <a href="https://github.com/Jairo-Junior-dev">github.com/Jairo-Junior-dev</a></li>
+        </ul>
+    </section>
+</main>
+
+<footer>
+    <p>© 2025 - Servidor Java feito com 💻 e ☕</p>
+</footer>
+</body>
+</html>
+[2025-07-03 17:45:44] [INFO] Conexão aceita de: 127.0.0.1
+[2025-07-03 17:45:44] [DEBUG] Request: GET /style.css
+[2025-07-03 17:45:44] [INFO] Resposta enviada para 127.0.0.1: HTTP/1.1 404 Not Found
+Content-Type: text/html; charset=UTF-8
+Content-Length: 38
+
+<h1>404 - Página não encontrada</h1>
+[2025-07-03 17:46:15] [INFO] Conexão aceita de: 127.0.0.1
+[2025-07-03 17:46:15] [DEBUG] Request: GET /
+[2025-07-03 17:46:15] [INFO] Resposta enviada para 127.0.0.1: HTTP/1.1 200 OK
+Content-Type: text/html; charset=UTF-8
+Content-Length: 1503
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Servidor HTTP Java</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<header>
+    <h1>🚀 Bem-vindo ao Servidor HTTP em Java</h1>
+    <p>Este servidor foi desenvolvido do zero, utilizando Java puro com suporte para rotas, middlewares e arquivos estáticos.</p>
+</header>
+
+<main>
+    <section>
+        <h2>🛠 Funcionalidades atuais</h2>
+        <ul>
+            <li>Leitura de requisições HTTP</li>
+            <li>Resposta com status e corpo</li>
+            <li>Middlewares customizáveis (ex: Auth, CORS)</li>
+            <li>Mapeamento de rotas</li>
+            <li>Serviço de arquivos estáticos (HTML, CSS)</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>📁 Estrutura do projeto</h2>
+        <pre>
+/src
+ ├── main/java
+ │   ├── Config/
+ │   ├── HTTP/
+ │   ├── middleware/
+ │   └── Main.java
+/resources
+ └── static/
+     ├── index.html
+     └── style.css
+      </pre>
+    </section>
+
+    <section>
+        <h2>📫 Contato</h2>
+        <p>Este projeto foi desenvolvido com fins educacionais. Para sugestões ou dúvidas:</p>
+        <ul>
+            <li>Email: seuemail@exemplo.com</li>
+            <li>GitHub: <a href="https://github.com/Jairo-Junior-dev">github.com/Jairo-Junior-dev</a></li>
+        </ul>
+    </section>
+</main>
+
+<footer>
+    <p>© 2025 - Servidor Java feito com 💻 e ☕</p>
+</footer>
+</body>
+</html>
+[2025-07-03 17:46:15] [INFO] Conexão aceita de: 127.0.0.1
+[2025-07-03 17:46:15] [DEBUG] Request: GET /style.css
+[2025-07-03 17:46:15] [INFO] Resposta enviada para 127.0.0.1: HTTP/1.1 404 Not Found
+Content-Type: text/html; charset=UTF-8
+Content-Length: 38
+
+<h1>404 - Página não encontrada</h1>
+[2025-07-03 17:46:37] [INFO] Conexão aceita de: 127.0.0.1
+[2025-07-03 17:46:37] [DEBUG] Request: GET /
+[2025-07-03 17:46:37] [INFO] Resposta enviada para 127.0.0.1: HTTP/1.1 200 OK
+Content-Type: text/html; charset=UTF-8
+Content-Length: 1503
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Servidor HTTP Java</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<header>
+    <h1>🚀 Bem-vindo ao Servidor HTTP em Java</h1>
+    <p>Este servidor foi desenvolvido do zero, utilizando Java puro com suporte para rotas, middlewares e arquivos estáticos.</p>
+</header>
+
+<main>
+    <section>
+        <h2>🛠 Funcionalidades atuais</h2>
+        <ul>
+            <li>Leitura de requisições HTTP</li>
+            <li>Resposta com status e corpo</li>
+            <li>Middlewares customizáveis (ex: Auth, CORS)</li>
+            <li>Mapeamento de rotas</li>
+            <li>Serviço de arquivos estáticos (HTML, CSS)</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>📁 Estrutura do projeto</h2>
+        <pre>
+/src
+ ├── main/java
+ │   ├── Config/
+ │   ├── HTTP/
+ │   ├── middleware/
+ │   └── Main.java
+/resources
+ └── static/
+     ├── index.html
+     └── style.css
+      </pre>
+    </section>
+
+    <section>
+        <h2>📫 Contato</h2>
+        <p>Este projeto foi desenvolvido com fins educacionais. Para sugestões ou dúvidas:</p>
+        <ul>
+            <li>Email: seuemail@exemplo.com</li>
+            <li>GitHub: <a href="https://github.com/Jairo-Junior-dev">github.com/Jairo-Junior-dev</a></li>
+        </ul>
+    </section>
+</main>
+
+<footer>
+    <p>© 2025 - Servidor Java feito com 💻 e ☕</p>
+</footer>
+</body>
+</html>
+[2025-07-03 17:46:37] [INFO] Conexão aceita de: 127.0.0.1
+[2025-07-03 17:46:37] [DEBUG] Request: GET /style.css
+[2025-07-03 17:46:37] [INFO] Resposta enviada para 127.0.0.1: HTTP/1.1 404 Not Found
+Content-Type: text/html; charset=UTF-8
+Content-Length: 38
+
+<h1>404 - Página não encontrada</h1>
+[2025-07-03 17:47:44] [DEBUG] [ConfigLoader] Arquivo de configuração carregado com sucesso.
+[2025-07-03 17:47:44] [INFO] Servidor iniciado:
+[2025-07-03 17:48:03] [INFO] Conexão aceita de: 127.0.0.1
+[2025-07-03 17:48:03] [DEBUG] Request: GET /
+[2025-07-03 17:48:03] [INFO] Autenticação desabilitada.
+[2025-07-03 17:48:03] [INFO] Resposta enviada para 127.0.0.1: HTTP/1.1 200 OK
+Content-Type: text/html; charset=UTF-8
+Content-Length: 1503
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Servidor HTTP Java</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<header>
+    <h1>🚀 Bem-vindo ao Servidor HTTP em Java</h1>
+    <p>Este servidor foi desenvolvido do zero, utilizando Java puro com suporte para rotas, middlewares e arquivos estáticos.</p>
+</header>
+
+<main>
+    <section>
+        <h2>🛠 Funcionalidades atuais</h2>
+        <ul>
+            <li>Leitura de requisições HTTP</li>
+            <li>Resposta com status e corpo</li>
+            <li>Middlewares customizáveis (ex: Auth, CORS)</li>
+            <li>Mapeamento de rotas</li>
+            <li>Serviço de arquivos estáticos (HTML, CSS)</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>📁 Estrutura do projeto</h2>
+        <pre>
+/src
+ ├── main/java
+ │   ├── Config/
+ │   ├── HTTP/
+ │   ├── middleware/
+ │   └── Main.java
+/resources
+ └── static/
+     ├── index.html
+     └── style.css
+      </pre>
+    </section>
+
+    <section>
+        <h2>📫 Contato</h2>
+        <p>Este projeto foi desenvolvido com fins educacionais. Para sugestões ou dúvidas:</p>
+        <ul>
+            <li>Email: seuemail@exemplo.com</li>
+            <li>GitHub: <a href="https://github.com/Jairo-Junior-dev">github.com/Jairo-Junior-dev</a></li>
+        </ul>
+    </section>
+</main>
+
+<footer>
+    <p>© 2025 - Servidor Java feito com 💻 e ☕</p>
+</footer>
+</body>
+</html>
+[2025-07-03 17:48:03] [INFO] Conexão aceita de: 127.0.0.1
+[2025-07-03 17:48:03] [DEBUG] Request: GET /style.css
+[2025-07-03 17:48:03] [INFO] Resposta enviada para 127.0.0.1: HTTP/1.1 404 Not Found
+Content-Type: text/html; charset=UTF-8
+Content-Length: 38
+
+<h1>404 - Página não encontrada</h1>
+[2025-07-03 17:48:56] [INFO] Conexão aceita de: 127.0.0.1
+[2025-07-03 17:48:59] [DEBUG] Request: GET /index.html
+[2025-07-03 17:48:59] [INFO] Resposta enviada para 127.0.0.1: HTTP/1.1 200 OK
+Content-Type: text/html; charset=UTF-8
+Content-Length: 35
+
+<p>Rota encontrada: /index.html</p>
+[2025-07-03 17:49:25] [INFO] Conexão aceita de: 127.0.0.1
+[2025-07-03 17:49:25] [DEBUG] Request: GET /index
+[2025-07-03 17:49:25] [INFO] Resposta enviada para 127.0.0.1: HTTP/1.1 404 Not Found
+Content-Type: text/html; charset=UTF-8
+Content-Length: 38
+
+<h1>404 - Página não encontrada</h1>
+[2025-07-03 17:49:25] [INFO] Conexão aceita de: 127.0.0.1
+[2025-07-03 17:49:25] [DEBUG] Request: GET /favicon.ico
+[2025-07-03 17:49:25] [INFO] Resposta enviada para 127.0.0.1: HTTP/1.1 404 Not Found
+Content-Type: text/html; charset=UTF-8
+Content-Length: 38
+
+<h1>404 - Página não encontrada</h1>
+[2025-07-03 17:49:28] [INFO] Conexão aceita de: 127.0.0.1
+[2025-07-03 17:49:28] [DEBUG] Request: GET /index
+[2025-07-03 17:49:28] [INFO] Resposta enviada para 127.0.0.1: HTTP/1.1 404 Not Found
+Content-Type: text/html; charset=UTF-8
+Content-Length: 38
+
+<h1>404 - Página não encontrada</h1>
+[2025-07-03 17:49:28] [INFO] Conexão aceita de: 127.0.0.1
+[2025-07-03 17:49:28] [DEBUG] Request: GET /favicon.ico
+[2025-07-03 17:49:28] [INFO] Resposta enviada para 127.0.0.1: HTTP/1.1 404 Not Found
+Content-Type: text/html; charset=UTF-8
+Content-Length: 38
+
+<h1>404 - Página não encontrada</h1>
+[2025-07-03 17:52:09] [DEBUG] [ConfigLoader] Arquivo de configuração carregado com sucesso.
+[2025-07-03 17:52:09] [INFO] Servidor iniciado:
+[2025-07-03 17:52:18] [INFO] Conexão aceita de: 127.0.0.1
+[2025-07-03 17:52:18] [DEBUG] Request: GET /index
+[2025-07-03 17:52:18] [INFO] Autenticação desabilitada.
+[2025-07-03 17:52:18] [INFO] Resposta enviada para 127.0.0.1
+[2025-07-03 17:52:21] [INFO] Conexão aceita de: 127.0.0.1
+[2025-07-03 17:52:22] [DEBUG] Request: GET /
+[2025-07-03 17:52:22] [INFO] Resposta enviada para 127.0.0.1
+[2025-07-03 17:52:22] [INFO] Conexão aceita de: 127.0.0.1
+[2025-07-03 17:52:22] [DEBUG] Request: GET /style.css
+[2025-07-03 17:52:22] [INFO] Arquivo estático servido: src/main/resources/style.css
+[2025-07-03 17:52:22] [INFO] Conexão aceita de: 127.0.0.1
+[2025-07-03 17:52:22] [DEBUG] Request: GET /favicon.ico
+[2025-07-03 17:52:22] [INFO] Resposta enviada para 127.0.0.1
+[2025-07-03 19:02:42] [DEBUG] [ConfigLoader] Arquivo de configuração carregado com sucesso.
+[2025-07-03 19:02:42] [INFO] Servidor iniciado:
+[2025-07-03 19:03:16] [INFO] Conexão aceita de: 127.0.0.1
+[2025-07-03 19:03:16] [DEBUG] Request: GET /
+[2025-07-03 19:03:16] [INFO] Autenticação desabilitada.
+[2025-07-03 19:05:10] [INFO] Conexão aceita de: 127.0.0.1
+[2025-07-03 19:05:10] [DEBUG] Request: GET /
+[2025-07-03 19:05:44] [INFO] Conexão aceita de: 127.0.0.1
+[2025-07-03 19:05:44] [DEBUG] Request: GET /hello
+[2025-07-03 19:05:50] [INFO] Conexão aceita de: 127.0.0.1
+[2025-07-03 19:05:50] [DEBUG] Request: GET /hello
+[2025-07-03 19:07:06] [DEBUG] [ConfigLoader] Arquivo de configuração carregado com sucesso.
+[2025-07-03 19:07:07] [INFO] Servidor iniciado:
+[2025-07-03 19:07:09] [INFO] Conexão aceita de: 127.0.0.1
+[2025-07-03 19:07:09] [DEBUG] Request: GET /hello
+[2025-07-03 19:07:09] [INFO] Autenticação desabilitada.
+[2025-07-03 19:07:20] [DEBUG] [ConfigLoader] Arquivo de configuração carregado com sucesso.
+[2025-07-03 19:07:20] [INFO] Servidor iniciado:
+[2025-07-03 19:07:26] [INFO] Conexão aceita de: 127.0.0.1
+[2025-07-03 19:07:26] [DEBUG] Request: GET /
+[2025-07-03 19:07:26] [INFO] Autenticação desabilitada.
+[2025-07-03 19:08:05] [DEBUG] [ConfigLoader] Arquivo de configuração carregado com sucesso.
+[2025-07-03 19:08:06] [INFO] Servidor iniciado:
+[2025-07-03 19:08:09] [INFO] Conexão aceita de: 127.0.0.1
+[2025-07-03 19:08:09] [DEBUG] Request: GET /
+[2025-07-03 19:08:09] [INFO] Autenticação desabilitada.
+[2025-07-03 19:08:22] [DEBUG] [ConfigLoader] Arquivo de configuração carregado com sucesso.
+[2025-07-03 19:08:22] [INFO] Servidor iniciado:
+[2025-07-03 19:08:25] [INFO] Conexão aceita de: 127.0.0.1
+[2025-07-03 19:08:25] [DEBUG] Request: GET /
+[2025-07-03 19:08:25] [INFO] Autenticação desabilitada.
+[2025-07-03 19:08:25] [INFO] Resposta enviada para 127.0.0.1
+[2025-07-03 19:08:25] [INFO] Conexão aceita de: 127.0.0.1
+[2025-07-03 19:08:25] [DEBUG] Request: GET /style.css
+[2025-07-03 19:08:25] [INFO] Arquivo estático servido: src/main/resources/style.css
+[2025-07-03 19:08:29] [INFO] Conexão aceita de: 127.0.0.1
+[2025-07-03 19:08:31] [DEBUG] Request: GET /sadasda
+[2025-07-03 19:08:31] [INFO] Resposta enviada para 127.0.0.1
+[2025-07-03 19:08:31] [INFO] Conexão aceita de: 127.0.0.1
+[2025-07-03 19:08:31] [DEBUG] Request: GET /style.css
+[2025-07-03 19:08:31] [INFO] Arquivo estático servido: src/main/resources/style.css
+[2025-07-03 19:08:33] [INFO] Conexão aceita de: 127.0.0.1
+[2025-07-03 19:08:33] [DEBUG] Request: GET /sadasda
+[2025-07-03 19:08:33] [INFO] Resposta enviada para 127.0.0.1
+[2025-07-03 19:08:33] [INFO] Conexão aceita de: 127.0.0.1
+[2025-07-03 19:08:33] [DEBUG] Request: GET /style.css
+[2025-07-03 19:08:33] [INFO] Arquivo estático servido: src/main/resources/style.css
+[2025-07-03 19:10:29] [DEBUG] [ConfigLoader] Arquivo de configuração carregado com sucesso.
+[2025-07-03 19:10:29] [INFO] Servidor iniciado:
+[2025-07-03 19:10:32] [INFO] Conexão aceita de: 127.0.0.1
+[2025-07-03 19:10:32] [DEBUG] Request: GET /sadasda
+[2025-07-03 19:10:32] [INFO] Autenticação desabilitada.
+[2025-07-03 19:10:32] [INFO] Resposta enviada para 127.0.0.1
+[2025-07-03 19:10:33] [INFO] Conexão aceita de: 127.0.0.1
+[2025-07-03 19:10:34] [DEBUG] Request: GET /
+[2025-07-03 19:10:34] [INFO] Resposta enviada para 127.0.0.1
+[2025-07-03 19:10:34] [INFO] Conexão aceita de: 127.0.0.1
+[2025-07-03 19:10:34] [DEBUG] Request: GET /style.css
+[2025-07-03 19:10:34] [INFO] Arquivo estático servido: src/main/resources/style.css
+[2025-07-03 19:10:36] [INFO] Conexão aceita de: 127.0.0.1
+[2025-07-03 19:10:36] [DEBUG] Request: GET /
+[2025-07-03 19:10:36] [INFO] Resposta enviada para 127.0.0.1
+[2025-07-03 19:10:36] [INFO] Conexão aceita de: 127.0.0.1
+[2025-07-03 19:10:36] [DEBUG] Request: GET /style.css
+[2025-07-03 19:10:36] [INFO] Arquivo estático servido: src/main/resources/style.css
+[2025-07-03 19:10:41] [INFO] Conexão aceita de: 127.0.0.1
+[2025-07-03 19:10:42] [DEBUG] Request: GET /
+[2025-07-03 19:10:42] [INFO] Resposta enviada para 127.0.0.1
+[2025-07-03 19:10:42] [INFO] Conexão aceita de: 127.0.0.1
+[2025-07-03 19:10:42] [DEBUG] Request: GET /style.css
+[2025-07-03 19:10:42] [INFO] Arquivo estático servido: src/main/resources/style.css
+[2025-07-03 19:10:46] [INFO] Conexão aceita de: 127.0.0.1
+[2025-07-03 19:10:47] [DEBUG] Request: GET /dadsada
+[2025-07-03 19:10:47] [INFO] Resposta enviada para 127.0.0.1
+[2025-07-03 19:10:49] [INFO] Conexão aceita de: 127.0.0.1
+[2025-07-03 19:10:51] [DEBUG] Request: GET /
+[2025-07-03 19:10:51] [INFO] Resposta enviada para 127.0.0.1
+[2025-07-03 19:10:51] [INFO] Conexão aceita de: 127.0.0.1
+[2025-07-03 19:10:51] [DEBUG] Request: GET /style.css
+[2025-07-03 19:10:51] [INFO] Arquivo estático servido: src/main/resources/style.css
+[2025-07-03 22:39:46] [DEBUG] [ConfigLoader] Arquivo de configuração carregado com sucesso.
+[2025-07-03 22:39:46] [INFO] Servidor iniciado:
+[2025-07-03 22:39:56] [INFO] Conexão aceita de: 127.0.0.1
+[2025-07-03 22:39:56] [DEBUG] Request: GET /
+[2025-07-03 22:39:56] [INFO] Log Atual:AuthMiddleware
+[2025-07-03 22:39:56] [INFO] Autenticação desabilitada.
+[2025-07-03 22:39:56] [INFO] Log Atual:CorsMiddleware
+[2025-07-03 22:39:56] [INFO] Resposta enviada para 127.0.0.1
+[2025-07-03 22:39:56] [INFO] Conexão aceita de: 127.0.0.1
+[2025-07-03 22:39:56] [DEBUG] Request: GET /style.css
+[2025-07-03 22:39:56] [INFO] Arquivo estático servido: src/main/resources/style.css
+[2025-07-03 22:40:54] [DEBUG] [ConfigLoader] Arquivo de configuração carregado com sucesso.
+[2025-07-03 22:40:54] [INFO] Servidor iniciado:
+[2025-07-03 22:40:58] [INFO] Conexão aceita de: 127.0.0.1
+[2025-07-03 22:40:58] [DEBUG] Request: GET /
+[2025-07-03 22:40:58] [INFO] Log Atual : AuthMiddleware
+[2025-07-03 22:40:58] [INFO] Autenticação desabilitada.
+[2025-07-03 22:40:58] [INFO] Log Atual : CorsMiddleware
+[2025-07-03 22:40:58] [INFO] Resposta enviada para 127.0.0.1
+[2025-07-03 22:40:58] [INFO] Conexão aceita de: 127.0.0.1
+[2025-07-03 22:40:58] [DEBUG] Request: GET /style.css
+[2025-07-03 22:40:58] [INFO] Arquivo estático servido: src/main/resources/style.css
+[2025-07-03 22:41:15] [INFO] Conexão aceita de: 127.0.0.1
+[2025-07-03 22:41:20] [WARN] Requisição inválida de 127.0.0.1 - Requisição vazia
+[2025-07-03 22:41:21] [INFO] Conexão aceita de: 127.0.0.1
+[2025-07-03 22:41:21] [DEBUG] Request: GET /hello
+[2025-07-03 22:41:21] [INFO] Resposta enviada para 127.0.0.1
+[2025-07-03 22:41:39] [INFO] Conexão aceita de: 127.0.0.1
+[2025-07-03 22:41:44] [WARN] Requisição inválida de 127.0.0.1 - Requisição vazia
+[2025-07-03 22:53:07] [INFO] Conexão aceita de: 127.0.0.1
+[2025-07-03 22:53:12] [WARN] Requisição inválida de 127.0.0.1 - Requisição vazia
+[2025-07-03 22:53:16] [INFO] Conexão aceita de: 127.0.0.1
+[2025-07-03 22:53:16] [DEBUG] Request: GET /hello
+[2025-07-03 22:53:16] [INFO] Resposta enviada para 127.0.0.1
+[2025-07-03 22:53:46] [INFO] Conexão aceita de: 127.0.0.1
+[2025-07-03 22:53:46] [DEBUG] Request: GET /hello
+[2025-07-03 22:53:46] [INFO] Resposta enviada para 127.0.0.1
+[2025-07-03 22:53:52] [INFO] Conexão aceita de: 127.0.0.1
+[2025-07-03 22:53:55] [DEBUG] Request: GET /hello
+[2025-07-03 22:53:55] [INFO] Resposta enviada para 127.0.0.1
+[2025-07-03 22:55:51] [INFO] Conexão aceita de: 127.0.0.1
+[2025-07-03 22:55:51] [DEBUG] Request: GET /hello
+[2025-07-03 22:55:51] [INFO] Resposta enviada para 127.0.0.1
+[2025-07-03 22:56:01] [DEBUG] [ConfigLoader] Arquivo de configuração carregado com sucesso.
+[2025-07-03 22:56:01] [INFO] Servidor iniciado:
+[2025-07-03 22:56:16] [INFO] Conexão aceita de: 127.0.0.1
+[2025-07-03 22:56:16] [DEBUG] Request: GET /hello
+[2025-07-03 22:56:16] [INFO] Log Atual : AuthMiddleware
+[2025-07-03 22:56:16] [INFO] Autenticação desabilitada.
+[2025-07-03 22:56:16] [INFO] Log Atual : CorsMiddleware
+[2025-07-03 22:56:16] [INFO] Resposta enviada para 127.0.0.1
+[2025-07-03 23:00:34] [DEBUG] [ConfigLoader] Arquivo de configuração carregado com sucesso.
+[2025-07-03 23:00:34] [INFO] Servidor iniciado:
+[2025-07-03 23:00:46] [INFO] Conexão aceita de: 127.0.0.1
+[2025-07-03 23:00:46] [DEBUG] Request: GET /hello
+[2025-07-03 23:00:46] [INFO] Log Atual : AuthMiddleware
+[2025-07-03 23:00:46] [INFO] Autenticação desabilitada.
+[2025-07-03 23:00:46] [INFO] Log Atual : CorsMiddleware
+[2025-07-03 23:00:46] [INFO] Resposta enviada para 127.0.0.1
+[2025-07-03 23:00:50] [INFO] Conexão aceita de: 127.0.0.1
+[2025-07-03 23:00:50] [DEBUG] Request: GET /
+[2025-07-03 23:00:50] [INFO] Resposta enviada para 127.0.0.1
+[2025-07-03 23:00:50] [INFO] Conexão aceita de: 127.0.0.1
+[2025-07-03 23:00:50] [DEBUG] Request: GET /style.css
+[2025-07-03 23:00:50] [INFO] Arquivo estático servido: src/main/resources/style.css
+[2025-07-03 23:01:05] [INFO] Conexão aceita de: 127.0.0.1
+[2025-07-03 23:01:05] [DEBUG] Request: GET /
+[2025-07-03 23:01:05] [INFO] Resposta enviada para 127.0.0.1
+[2025-07-03 23:01:05] [INFO] Conexão aceita de: 127.0.0.1
+[2025-07-03 23:01:05] [DEBUG] Request: GET /style.css
+[2025-07-03 23:01:05] [INFO] Arquivo estático servido: src/main/resources/style.css
+[2025-07-03 23:01:49] [DEBUG] [ConfigLoader] Arquivo de configuração carregado com sucesso.
+[2025-07-03 23:01:49] [INFO] Servidor iniciado:
+[2025-07-03 23:02:05] [DEBUG] [ConfigLoader] Arquivo de configuração carregado com sucesso.
+[2025-07-03 23:02:05] [INFO] Servidor iniciado:
+[2025-07-03 23:02:21] [INFO] Conexão aceita de: 127.0.0.1
+[2025-07-03 23:02:21] [DEBUG] Request: GET /
+[2025-07-03 23:02:21] [INFO] Log Atual : AuthMiddleware
+[2025-07-03 23:02:21] [INFO] Autenticação desabilitada.
+[2025-07-03 23:02:21] [INFO] Log Atual : CorsMiddleware
+[2025-07-03 23:02:21] [DEBUG] Arquivo HTML Carregado: <!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>🛠 Em Manutenção</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+          background-color: #f9f9f9;
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          min-height: 100vh;
+          text-align: center;
+          color: #333;
+          padding: 2rem;
+        }
+
+        h1 {
+          font-size: 3rem;
+          color: #ff9800;
+          margin-bottom: 1rem;
+        }
+
+        p {
+          font-size: 1.2rem;
+          max-width: 600px;
+        }
+
+        .emoji {
+          font-size: 4rem;
+          margin-bottom: 1rem;
+        }
+
+        footer {
+          margin-top: 3rem;
+          font-size: 0.9rem;
+          color: #aaa;
+        }
+    </style>
+</head>
+<body>
+<div class="emoji">🚧</div>
+<h1>Estamos em manutenção</h1>
+<p>Nosso servidor está passando por melhorias programadas. Por favor, volte novamente mais tarde. Agradecemos sua paciência e compreensão!</p>
+<footer>© 2025 - MeuServidorHTTP</footer>
+</body>
+</html>
+
+[2025-07-03 23:03:34] [DEBUG] [ConfigLoader] Arquivo de configuração carregado com sucesso.
+[2025-07-03 23:03:34] [INFO] Servidor iniciado:
+[2025-07-03 23:03:44] [INFO] Conexão aceita de: 127.0.0.1
+[2025-07-03 23:03:44] [DEBUG] Request: GET /
+[2025-07-03 23:03:44] [INFO] Log Atual : AuthMiddleware
+[2025-07-03 23:03:44] [INFO] Autenticação desabilitada.
+[2025-07-03 23:03:44] [INFO] Log Atual : CorsMiddleware
+[2025-07-03 23:03:44] [DEBUG] Arquivo HTML Carregado: src/main/resources/maintenance.html
+[2025-07-03 23:03:45] [INFO] Conexão aceita de: 127.0.0.1
+[2025-07-03 23:03:45] [DEBUG] Request: GET /
+[2025-07-03 23:03:45] [DEBUG] Arquivo HTML Carregado: src/main/resources/maintenance.html
+[2025-07-03 23:03:47] [INFO] Conexão aceita de: 127.0.0.1
+[2025-07-03 23:03:47] [DEBUG] Request: GET /
+[2025-07-03 23:03:47] [DEBUG] Arquivo HTML Carregado: src/main/resources/maintenance.html
+[2025-07-03 23:04:05] [INFO] Conexão aceita de: 127.0.0.1
+[2025-07-03 23:04:05] [DEBUG] Request: GET /
+[2025-07-03 23:04:05] [DEBUG] Arquivo HTML Carregado: src/main/resources/maintenance.html
+[2025-07-03 23:04:09] [INFO] Conexão aceita de: 127.0.0.1
+[2025-07-03 23:04:09] [DEBUG] Request: GET /
+[2025-07-03 23:04:09] [DEBUG] Arquivo HTML Carregado: src/main/resources/maintenance.html
+[2025-07-03 23:04:13] [INFO] Conexão aceita de: 127.0.0.1
+[2025-07-03 23:04:16] [DEBUG] Request: GET /hello
+[2025-07-03 23:04:16] [DEBUG] Arquivo HTML Carregado: src/main/resources/maintenance.html
+[2025-07-03 23:04:33] [INFO] Conexão aceita de: 127.0.0.1
+[2025-07-03 23:04:33] [DEBUG] Request: GET /hello
+[2025-07-03 23:04:33] [DEBUG] Arquivo HTML Carregado: src/main/resources/maintenance.html
+[2025-07-03 23:05:10] [INFO] Conexão aceita de: 127.0.0.1
+[2025-07-03 23:05:10] [DEBUG] Request: GET /hello
+[2025-07-03 23:05:10] [DEBUG] Arquivo HTML Carregado: src/main/resources/maintenance.html

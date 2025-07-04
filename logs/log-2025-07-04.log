@@ -1,0 +1,14 @@
+[2025-07-04 14:43:32] [DEBUG] [ConfigLoader] Arquivo de configuração carregado com sucesso.
+[2025-07-04 14:43:32] [INFO] Servidor iniciado:
+[2025-07-04 14:45:10] [INFO] Conexão aceita de: 127.0.0.1
+[2025-07-04 14:45:12] [DEBUG] Request: GET /
+[2025-07-04 14:45:12] [INFO] Log Atual : AuthMiddleware
+[2025-07-04 14:45:12] [INFO] Autenticação desabilitada.
+[2025-07-04 14:45:12] [INFO] Log Atual : CorsMiddleware
+[2025-07-04 14:45:12] [DEBUG] Arquivo HTML Carregado: src/main/resources/maintenance.html
+[2025-07-04 14:45:12] [INFO] Conexão aceita de: 127.0.0.1
+[2025-07-04 14:45:12] [DEBUG] Request: GET /favicon.ico
+[2025-07-04 14:45:12] [DEBUG] Arquivo HTML Carregado: src/main/resources/maintenance.html
+[2025-07-04 14:45:16] [INFO] Conexão aceita de: 127.0.0.1
+[2025-07-04 14:45:16] [DEBUG] Request: GET /controle
+[2025-07-04 14:45:16] [DEBUG] Arquivo HTML Carregado: src/main/resources/maintenance.html

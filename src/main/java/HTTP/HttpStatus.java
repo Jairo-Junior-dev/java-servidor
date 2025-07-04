@@ -8,20 +8,20 @@ public enum HttpStatus {
     BAD_REQUEST(400, "Bad Request"),
     METHOD_NOT_ALLOWED(405, "Method Not Allowed"),
     SERVICE_UNAVAILABLE(503,"Service Unavailable" ),
-    UNAUTHORIZED(401,"Unauthorized");
+    UNAUTHORIZED(401,"Unauthorized"),
+    INTERNAL_SERVER_ERROR(500,"Internal Server Error"),
+    NO_CONTENT(204,"No Content");
     private final int statusCode;
     private final String statusDescription;
+
 
     HttpStatus(int statusCode, String statusDescription) {
         this.statusCode = statusCode;
         this.statusDescription = statusDescription;
     }
-
     public String getResponseLine() {
         return "HTTP/1.1 " + statusCode + " " + statusDescription + "\r\n\r\n";
     }
-
-
     public String getResponseLineWithBody(String body) {
         StringBuilder sb = new StringBuilder();
         sb.append("HTTP/1.1 ").append(statusCode).append(" ").append(statusDescription).append("\r\n");
